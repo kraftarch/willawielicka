@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.5" id="node1" apprev="17926">
+  <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2000" leveltileurl="tiles/1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" overlap="1" height="2000" levelingpitch="0">
+    <level width="2000" predecode="0" height="2000" preload="0"/>
+    <level width="1000" predecode="0" height="1000" preload="0"/>
+    <level width="500" predecode="1" height="500" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start tilt="0" fov="70" pan="0" projection="4"/>
+    <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max tilt="90" fovstereographic="270" fovfisheye="360" fov="120" pan="360" scaletofit="1"/>
+  </view>
+  <userdata source="" latitude="" description="" datetime="" title="" copyright="" customnodeid="" author="" longitude="" nodeid="node1" info="" comment="" tags="spacer3D" heading="0"/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label enabled="1" borderradius="1" width="180" bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderalpha="1" height="20" wordwrap="1" background="1"/>
+    <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
+    <hotspot tilt="0" description="" title="" target="_blank" id="Point01" url="2.xml" skinid="ht_url" pan="0"/>
+  </hotspots>
+  <media/>
+  <transition enabled="1" zoomout="0" softedge="0" zoomfov="20" zoomspeed="2" blendtime="1" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" simulatemass="1" lockedwheel="0" invertcontrol="1" speedwheel="1" lockedkeyboard="0" rubberband="0" sensitivity="8" dblclickfullscreen="0" lockedmouse="0" invertwheel="0"/>
+</panorama>
