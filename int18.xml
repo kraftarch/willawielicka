@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.5" id="node1" apprev="17926">
+  <input levelbias="0.400" levelingroll="0" width="1500" height="1500" levelingpitch="0" levelbiashidpi="1.000" leveltileurl="tiles/int18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510">
+    <level preload="0" width="1500" height="1500" predecode="0"/>
+    <level preload="0" width="750" height="750" predecode="0"/>
+    <level preload="1" width="375" height="375" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start pan="150" projection="4" fov="70" tilt="0"/>
+    <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max scaletofit="1" pan="360" fov="120" fovstereographic="270" fovfisheye="360" tilt="90"/>
+  </view>
+  <userdata nodeid="node1" description="" heading="0" info="" comment="" author="" datetime="" copyright="" longitude="" source="" title="" tags="spacer3d new" latitude="" customnodeid=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label backgroundcolor="0xffffff" textalpha="1" border="1" width="180" borderradius="1" borderalpha="1" height="20" textcolor="0x000000" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" backgroundalpha="1"/>
+    <polystyle backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+    <hotspot skinid="ht_node" url="int12.xml" description="" pan="-175" id="int12" target="_blank" title="" tilt="0"/>
+  </hotspots>
+  <media/>
+  <transition blendcolor="0x000000" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomfov="20" type="crossdissolve" zoomin="0" zoomoutpause="1"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+  <control lockedmouse="0" speedwheel="1" rubberband="0" lockedwheel="0" invertwheel="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" invertcontrol="1" dblclickfullscreen="0"/>
+</panorama>
