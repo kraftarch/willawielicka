@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama appversion="6.1.5" id="node1" apprev="17926">
-  <input levelbias="0.400" levelingroll="0" width="1500" height="1500" levelingpitch="0" levelbiashidpi="1.000" leveltileurl="tiles/int18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510">
-    <level preload="0" width="1500" height="1500" predecode="0"/>
-    <level preload="0" width="750" height="750" predecode="0"/>
-    <level preload="1" width="375" height="375" predecode="1"/>
+<panorama apprev="17926" appversion="6.1.5" id="node1">
+  <input levelbiashidpi="1.000" levelbias="0.400" overlap="1" height="2000" leveltileurl="tiles/int18/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" levelingpitch="0" width="2000">
+    <level height="2000" predecode="0" width="2000" preload="0"/>
+    <level height="1000" predecode="0" width="1000" preload="0"/>
+    <level height="500" predecode="1" width="500" preload="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start pan="150" projection="4" fov="70" tilt="0"/>
-    <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-    <min fovpixel="2" pan="0" tilt="-90"/>
-    <max scaletofit="1" pan="360" fov="120" fovstereographic="270" fovfisheye="360" tilt="90"/>
+  <view fovmode="0" pannorth="0">
+    <start pan="150" fov="70" tilt="0" projection="4"/>
+    <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="270"/>
   </view>
-  <userdata nodeid="node1" description="" heading="0" info="" comment="" author="" datetime="" copyright="" longitude="" source="" title="" tags="spacer3d new" latitude="" customnodeid=""/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label backgroundcolor="0xffffff" textalpha="1" border="1" width="180" borderradius="1" borderalpha="1" height="20" textcolor="0x000000" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" backgroundalpha="1"/>
-    <polystyle backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
-    <hotspot skinid="ht_node" url="int12.xml" description="" pan="-175" id="int12" target="_blank" title="" tilt="0"/>
+  <userdata description="" info="" tags="spacer3d new" title="" author="" datetime="" heading="0" comment="" source="" nodeid="node1" longitude="" copyright="" latitude="" customnodeid=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label border="1" height="20" borderalpha="1" enabled="1" background="1" width="180" backgroundalpha="1" wordwrap="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" textcolor="0x000000"/>
+    <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
+    <hotspot description="" pan="-175" skinid="ht_node" tilt="0" title="" target="_blank" url="int12.xml" id="int12"/>
   </hotspots>
   <media/>
-  <transition blendcolor="0x000000" zoomspeed="2" softedge="0" blendtime="1" zoomout="0" enabled="1" zoomfov="20" type="crossdissolve" zoomin="0" zoomoutpause="1"/>
-  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-  <control lockedmouse="0" speedwheel="1" rubberband="0" lockedwheel="0" invertwheel="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" invertcontrol="1" dblclickfullscreen="0"/>
+  <transition blendtime="1" zoomin="0" zoomfov="20" zoomout="0" enabled="1" type="crossdissolve" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control invertcontrol="1" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" speedwheel="1" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0"/>
 </panorama>
